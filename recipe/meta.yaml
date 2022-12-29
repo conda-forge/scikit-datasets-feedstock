@@ -1,5 +1,5 @@
 {% set name = "scikit-datasets" %}
-{% set version = "0.2.1" %}
+{% set version = "0.2.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/scikit-datasets-{{ version }}.tar.gz
-  sha256: 7df500205c75c4234896eaabc900ad8f93e220cee5ac971b999492d77c0960fa
+  sha256: 47663e4c9d9edcae0e1ea8759c8e8485e282fc615d4f341665f0ba657675ba9e
 
 build:
   noarch: python
